@@ -1,0 +1,64 @@
+/* reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+article#box1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+article#box2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 4;
+    opacity: 0.8;
+}
+article#box3 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 3;
+    opacity: 0.6;
+}
+article#box4 {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    z-index: 2;
+    opacity: 0.4;
+}
+article#box5 {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    z-index: 1;
+    opacity: 0.2;
+}
+header {
+    margin: 20px 0 20px 580px;
+    color: #ff5719;
+
+}
+main article {
+    background-color: #ff5719;
+    width: 300px;
+    height: 300px;
+    border: black solid 1px;
+    border-radius: 15px;
+    box-shadow: black 10px 10px 10px;
+
+
+}

@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+article {
+    width: 300px;
+    padding: 30px;
+    background-color: #f1f0f1;
+    border: solid 1px #2c2c2c;
+    position: relative;
+}
+
+article#box2 {
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    z-index: 1;
+}
+article#box1 {
+    z-index: 2; /*hoe hoger het nummer hoe meer naar voor*/
+}
